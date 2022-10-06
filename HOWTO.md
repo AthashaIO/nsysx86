@@ -15,6 +15,8 @@ mix nerves.system.shell
 
 make linux-menuconfig
 CONFIG_INPUT_MOUSEDEV
+CONFIG_INPUT_MISC
+CONFIG_INPUT_UINPUT
 make linux-update-defconfig
 
 make
